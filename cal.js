@@ -19,7 +19,7 @@ data.forEach((ele) => {
 			ans.innerHTML = "Invalid Input";
 		}
 
-		//Between two or more operator is not present like 88+9--7
+		//Between two or more operator is not present like 88+9--7 , 99-+0--
 		else if (
 			equation.length > 1 &&
 			equation.charAt(equation.length - 1) === "-" &&
