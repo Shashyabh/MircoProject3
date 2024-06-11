@@ -1,3 +1,8 @@
+body,
+html {
+	margin: 0;
+	padding: 0;
+}
 .mainSection {
 	background-color: #3b4664;
 	margin-top: 10px;
